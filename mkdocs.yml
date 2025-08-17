@@ -1,0 +1,78 @@
+site_name: NexaraOne
+site_description: Proof Over Promise. Commerce With Conscience
+site_author: MJ-Ahmad
+repo_url: https://github.com/mj-nexara/NOne
+edit_uri: edit/main/docs/
+
+nav:
+  - Home:
+     - Home: index.md 
+     - Dashboard:
+          - Overview: home/dashboard.md
+          - Analytics: home/dashboard/analytics.md
+  - Three Pillars:
+      - Digital:
+          - Overview: three-pillars/digital.md 
+          - Nexascend CLI: three-pillars/digital/nexascend-cli.md
+      - Vital Assets:
+          - Overview: three-pillars/vital-assets.md
+          - Organic Honey: three-pillars/vital-assets/organic-honey.md
+      - Governance:
+          - Overview: three-pillars/governance.md
+          - Constitution Kit: three-pillars/governance/constitution-kit.md
+  - Store:
+      - Cart: store/cart.md
+      - Checkout: store/checkout.md
+      - Confirmation: store/confirmation.md
+      - Remove Item: store/remove.md
+  - User:
+      - Profile: user/profile.md
+      - Tracking: user/tracking.md
+  - Treasury:
+      - Treasury Policy: treasury/treasury-policy.md
+      - Purpose Registry: treasury/purpose-registry.md
+      - Disbursement Log: treasury/disbursement-log.md
+  - Merit System: merit-system.md
+  - Tokenomics: tokenomics.md
+  - Security:
+      - Threat Model: security/threat-model.md
+      - Audit Log Policy: security/audit-log-policy.md
+      - Incident Response: security/incident-response.md
+      - Guardian Handbook: security/guardian-handbook.md
+  - Ethics Manifesto: ethics-manifesto.md
+  - Governance:
+      - Proposals: governance/proposals.md
+  - Community:
+      - Community Charter: community/community-charter.md
+      - Forum: community/index.md
+      - FAQ: community/faq.md
+  - Admin Panel: admin/index.md
+  - Contributing: contributing.md
+  - Vision: vision.md
+  - Emergency Protocol: emergency-protocol.md
+  - Ratification Process: ratification-process.md
+  - Ratified Actions: ratified-actions.md
+  - Setup:
+      - Environment: setup/environment.md
+      - MkDocs: setup/mkdocs.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+
+plugins:
+  - search
+  - git-revision-date
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mj-nexara
